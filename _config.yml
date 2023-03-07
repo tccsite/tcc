@@ -31,7 +31,8 @@ github_username:  tccsite
 
 languages: ["en", "ja"]
 default_lang: "en"
-exclude_from_localization: ["assets/css", "assets/img", "assets/js", "assets/fonts", "assets/bootstrap"]
+permalink: /:categories/:year/:month/:day/:title/
+# exclude_from_localization: ["assets/css", "assets/img", "assets/js", "assets/fonts", "assets/bootstrap"]
 parallel_localization: true
 
 sass:
@@ -87,6 +88,7 @@ authors:
 #theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
 
 # Exclude from processing.
 # The following items will not be processed, by default.

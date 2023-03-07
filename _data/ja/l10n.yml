@@ -1,3 +1,35 @@
 # Japanese
 lang_name: "日本語"
 title: 高松コミュニティ教会
+
+# Locations
+locations:
+  mure:
+    title: 牟礼インターナショナルチャペル
+    image: 'assets/img/mure-chapel.png'
+    worship: 日曜日の礼拝は16:00から
+    address: 〒761-0123 香川県高松市牟礼町原541
+    phone: 0877777777
+    mapurl: 'https://maps.app.goo.gl/Jhxym5bmGCeJTgfq5'
+  center:
+    title: 高松クリスチャンセンター
+    image: 'assets/img/center-church.png'
+    worship: 日曜日の礼拝は11:00から
+    address: ２丁目-５-15 常磐町 高松市 香川県 760-0054
+    phone: 0878342870
+    maplink: 'https://goo.gl/maps/ErcUk4JPFZZiXDvq7'
+  setouchi:
+    title: 瀬戸内チャペル
+    image: 'assets/img/seto-uchi-chapel.png'
+    worship: 日曜日の礼拝は10:00から
+    address: 〒760-0012 香川県高松市瀬戸内町２０−15
+    phone: 0878359189
+    maplink: 'https://maps.app.goo.gl/v6siL37VoYorKzPg7'
+  ayagawa:
+    title: 高松コミュニティチャーチ綾川キリスト教会
+    image: 'assets/img/ayagawa.png'
+    worship: 日曜日の礼拝は10:00から
+    address: 〒761-2101 香川県綾歌郡綾川町畑田2110
+    phone: 0878770433
+    fb: 'https://www.facebook.com/AyagawaChristChurch'
+    maplink: 'https://maps.app.goo.gl/GnxAoGavyQ9kjysC6'
