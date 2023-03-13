@@ -38,6 +38,10 @@ a.home-anchor {
   flex: 1 1 50%;
 }
 
+.tcc-site-heading-left {
+  text-align: left !important; /* or right */
+}
+
 .tcc-site-heading .tcc-subheading {
   font-size: 24px;
   font-weight: 300;

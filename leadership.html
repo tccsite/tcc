@@ -3,10 +3,9 @@ layout: default
 title: Leadership
 permalink: /leadership
 comments: false
-lang: en
 ---
 
-{% include lang_navi_en.html %}
+{% include lang_navi.html %}
 <header
   class="masthead"
   style="background-image: url('assets/img/post-bg.jpg')"
@@ -15,9 +14,9 @@ lang: en
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto">
-        <div class="post-heading">
-          <h1>Leadreship</h1>
-          <span class="tcc-subheading"
+        <div class="site-heading tcc-site-heading-left">
+          <h2>Leadreship</h2>
+          <span class="subheading"
             >Our Leadership Team works together to provide leadership and
             direction for our church.</span
           >
@@ -28,7 +27,7 @@ lang: en
 </header>
 <div class="container">
   <div class="list-authors mt-5">
-    {% for author in site.authors %}
+    {% for author in site.data.l10n.authors %}
     <div
       id="{{ author[1].name }}"
       class="authorbox position-relative pb-5 pt-5 mb-4 mt-4 border"
