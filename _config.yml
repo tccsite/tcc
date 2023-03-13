@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  tccsite
+github_username: tccsite
 
 languages: ["en", "ja"]
 default_lang: "en"
@@ -38,50 +38,6 @@ parallel_localization: true
 sass:
   sourcemap: never
 
-# Leadership
-authors:
-  takinami:
-    name: Takinami
-    display_name: Takinami Yoshii
-    avatar: 'assets/img/avatar.png'
-    email: tcc-takinami@gmail.com
-    web: https://www.tc.church
-    twitter: https://twitter.com/tcc
-    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
-  kenji:
-    name: Kenji
-    display_name: Takaoka Kenji    
-    avatar: 'assets/img/avatar.png'
-    email: tcc-kenji@gmail.com
-    web: https://www.tc.church
-    twitter: https://twitter.com/tcc
-    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
-  mark:
-    name: Mark
-    display_name: Powell Mark    
-    avatar: 'assets/img/avatar.png'
-    email: tcc-mpowell@gmail.com
-    web: https://www.tc.church
-    twitter: https://twitter.com/tcc
-    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
-  noriko:
-    name: Noriko
-    display_name: Mukai Noriko    
-    avatar: 'assets/img/avatar.png'
-    email: tcc-mpowell@gmail.com
-    web: https://www.tc.church
-    twitter: https://twitter.com/tcc
-    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
-  stella:
-    name: Stella
-    display_name: Cox Stella    
-    avatar: 'assets/img/avatar.png'
-    email: tcc-mpowell@gmail.com
-    web: https://www.tc.church
-    twitter: https://twitter.com/tcc
-    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
-
-
 # Build settings
 #theme: minima
 #theme: jekyll-theme-minimal
@@ -89,7 +45,6 @@ authors:
 plugins:
   - jekyll-feed
   - jekyll-polyglot
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

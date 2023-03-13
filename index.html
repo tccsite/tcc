@@ -2,13 +2,13 @@
 layout: default
 title: Home
 permalink: /
-lang: ja
 ---
 
-{% include lang_navi_ja.html %}
+{% include lang_navi_en.html %}
+
 <header
   class="masthead"
-  style="background-image: url('assets/img/takamasu-city.jpg')"
+  style="background-image: url('assets/img/takamatsu.png')"
 >
   <div class="overlay"></div>
   <div class="container">
@@ -38,7 +38,9 @@ lang: ja
       />
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">{{ location[1].title | escape }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ location[1].woship }}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">
+          {{ location[1].worship | escape }}
+        </h6>
         <p class="card-text">
           {{ location[1].address }}
           <br />
@@ -55,9 +57,9 @@ lang: ja
         {% endif %}
 
         <div class="mt-auto">
-          <a href="{{ location[1].mapurl }}" class="btn btn-primary"
-            >Learn more</a
-          >
+          <a href="{{ location[1].mapurl }}" class="btn btn-primary">
+            {{ site.data.l10n.btn_learn_more | escape }}
+          </a>
         </div>
       </div>
     </div>

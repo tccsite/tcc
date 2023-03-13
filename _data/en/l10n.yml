@@ -2,6 +2,18 @@
 lang_name: "English"
 title: Takamatsu Community Church
 subtitle: Takamatsu Community Church is a body of Christ as one church in four locations in Kagawa.
+btn_learn_more: Learn more
+# Language selector
+lnselect_en: selected="selected"
+lnselect_ja:
+
+# Navigation menu text
+navi_home: Home
+navi_about_us: About us
+navi_leadership: Leadership
+navi_events: Events
+navi_online_services: Online Services
+navi_contact_us: Contact Us
 
 # Locations
 locations:
@@ -34,3 +46,46 @@ locations:
     phone: 0878770433
     fbpage: "https://www.facebook.com/AyagawaChristChurch"
     mapurl: "https://maps.app.goo.gl/GnxAoGavyQ9kjysC6"
+
+# Leadership
+authors:
+  takinami:
+    name: Takinami
+    display_name: Takinami Yoshii
+    avatar: "assets/img/avatar.png"
+    email: tcc-takinami@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  kenji:
+    name: Kenji
+    display_name: Takaoka Kenji
+    avatar: "assets/img/avatar.png"
+    email: tcc-kenji@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  mark:
+    name: Mark
+    display_name: Powell Mark
+    avatar: "assets/img/avatar.png"
+    email: tcc-mpowell@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  noriko:
+    name: Noriko
+    display_name: Mukai Noriko
+    avatar: "assets/img/avatar.png"
+    email: tcc-mpowell@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  stella:
+    name: Stella
+    display_name: Cox Stella
+    avatar: "assets/img/avatar.png"
+    email: tcc-mpowell@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
