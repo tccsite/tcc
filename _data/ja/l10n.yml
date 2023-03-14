@@ -3,6 +3,8 @@ lang_name: "日本語"
 title: 高松コミュニティ教会
 subtitle: 高松コミュニティ教会は、キリストの体である一つの教会として香川県内に4ヶ所。
 btn_learn_more: 学ぶ も
+btn_contact: Contact
+
 # Language selector
 lnselect_en:
 lnselect_ja: selected="selected"
@@ -48,6 +50,58 @@ locations:
     maplink: "https://maps.app.goo.gl/GnxAoGavyQ9kjysC6"
 
 # Leadership
+leaders:
+  takinami:
+    name: Takinami
+    display_name: Takinami Yoshii
+    title: Pastor
+    contact: https://tccsite.github.io/
+    avatar: "assets/img/avatar.png"
+    email: tcc-takinami@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  kenji:
+    name: Kenji
+    display_name: Takaoka Kenji
+    title: Pastor
+    contact: https://tccsite.github.io/
+    avatar: "assets/img/avatar.png"
+    email: tcc-kenji@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  mark:
+    name: Mark
+    display_name: Powell Mark
+    title: Missionary
+    contact: https://tccsite.github.io/
+    avatar: "assets/img/avatar.png"
+    email: tcc-mpowell@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  noriko:
+    name: Noriko
+    display_name: Mukai Noriko
+    title: Elder
+    contact: https://tccsite.github.io/
+    avatar: "assets/img/avatar.png"
+    email: tcc-mpowell@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+  stella:
+    name: Stella
+    display_name: Cox Stella
+    title: Missionary
+    contact: https://tccsite.github.io/
+    avatar: "assets/img/avatar.png"
+    email: tcc-mpowell@gmail.com
+    web: https://www.tc.church
+    twitter: https://twitter.com/tcc
+    description: "Write a short description of the leader here. You are currently previewing TCC site demo."
+
 authors:
   takinami:
     name: Takinami
